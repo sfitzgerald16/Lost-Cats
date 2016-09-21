@@ -8,28 +8,45 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="icon" href="images\LCCA_Logo.jpg" type="image/jpg" sizes="16x16">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
-	<div class="header">
-		<ul>
+	<div class="nav">
+		<ul class="nav">
 			<li><a href="index.html">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="http://www.helpinglostpets.com/v2/EditPet_Start.aspx?rc=o1386">List a Lost or Found Pet</a></li>
-			<li><a href="http://www.helpinglostpets.com/v2/OrgPet.aspx?oid=1386">View Pets</a></li>
-			<li><a href="contact.html">Contact</a></li>
-			<li><a href="donate.html">Donate</a></li>
+			<li class="dropdown">
+				<a class="active" class="dropbtn" href="#">About</a>
+				<div class="dropdown-content">
+			<a href="contact.html">Contact</a>
+			<!-- <a href="donate.html">Donate</a> -->
+			<a href="volunteer.html">Volunteer</a>
+		</div>
+			</li>
+			<li class="dropdown"><a class="dropbtn" href="lost-cat.html">Lost a Pet</a>
+				<div class="dropdown-content">
+			<a href="lost-cat.html">Lost Cat Action Plan</a>
+			<a href="list-pet.html">List a Pet</a>
+			<a href="view-pets.html">View Pets</a>
+		</div>
+			</li>
+			<li class="dropdown"><a class="dropbtn" href="found-cat.html">Found a Pet</a>
+				<div class="dropdown-content">
+			<a href="found-cat.html">Found Cat Action Plan</a>
+			<a href="list-pet.html">List a Pet</a>
+			<a href="view-pets.html">View Pets</a>
+		</div>
+	</li>
+			<li><a href="view-pets.html">View Pets</a></li>
 			<li><a href="resources.html">Resources</a></li>
-			<li><a href="espanol.html">Espanol</a></li>
-			<li><a href="https://www.facebook.com/californialostcats"><i class="fa fa-facebook-square fa-lg" aria-hidden="true" style="color:white;"></i></a></li>
-			<li><a href="https://twitter.com/calostcats"><i class="fa fa-twitter-square fa-lg" aria-hidden="true" style="color:white;"></i></a></li>			
+			<!-- <li><a href="espanol.html">Espa&ntilde;ol</a></li> -->
+			<li class="clear"></li>
+			<li class="social" ><a class="social" href="https://www.facebook.com/californialostcats" target="_blank"><i class="fa fa-facebook-square fa-lg" aria-hidden="true" style="color:white;"></i></a></li>
+			<li class="social" ><a class="social" href="https://twitter.com/calostcats" target="_blank"><i class="fa fa-twitter-square fa-lg" aria-hidden="true" style="color:white;"></i></a></li>
 		</ul>
-			
-
 	</div>
-
 	<div class="container">
-		
+
 		<div class="title">
 			<h1>California Lost Cats</h1>
 		</div>
@@ -40,11 +57,11 @@
 
 	<p id="bodytext">California Lost Cats is an all-volunteer organization with a mission to help people find their missing cats. We network lost and found cats (and other pets that aren't cats or dogs) in the state of California. This helps lighten the load on the shelter system by reducing the number of cats that are brought into the shelter system, and increasing the number of "stray" cats that are claimed from the shelter by their owners. All our services are free of charge.</p>
 
-	<p id="bodytext">We are partners with <a href="http://www.helpinglostpets.com/">Helping Lost Pets</a> (HeLP), a nationwide map-based database for lost pets. When you register your pet with HeLP, your pet's photo and info are added to the map. Free flyers are available for download in several formats.  And an alert is emailed to everyone who has signed up to receive them. When our volunteers get the alert, we post your pet's photo and info on our <a href="https://www.facebook.com/californialostcats">Facebook page</a> and <a href="https://twitter.com/calostcats">Twitter feed</a>. We will send you an email with a link to your post as well as links to our Action Plans and other resources. 
+	<p id="bodytext">We are partners with <a href="http://www.helpinglostpets.com/">Helping Lost Pets</a> (HeLP), a nationwide map-based database for lost pets. When you register your pet with HeLP, your pet's photo and info are added to the map. Free flyers are available for download in several formats.  And an alert is emailed to everyone who has signed up to receive them. When our volunteers get the alert, we post your pet's photo and info on our <a href="https://www.facebook.com/californialostcats">Facebook page</a> and <a href="https://twitter.com/calostcats">Twitter feed</a>. We will send you an email with a link to your post as well as links to our Action Plans and other resources.
 
 	<p id="bodytext">Our network of followers will continue to share your pet's info on social media to reach as many local people as possible. Our followers are amazing. The community actively works to try to help you find your pet or the owner of the pet you found. While you are following our Action Plan, your pet is being networked across California. </p>
 
-</div>	
+</div>
 
 <div class="footer">
 	<p>&copy; 2016 California Lost Cats. All Rights Reserved.</p>
